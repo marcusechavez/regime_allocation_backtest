@@ -1,0 +1,23 @@
+# Publish only reviewed backtest sources. All other local files stay untracked.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/optimizer_backtest.py
+!/backtest_data.py
+!/optimizer_mc.py
+!/simulation_utils.py
+!/size_by_beta.py
+!/regime_matching.py
+!/tests/
+/tests/*
+!/tests/test_backtest.py
+!/pyproject.toml
+!/requirements-dev.txt
+!/tests/test_simulation.py
+!/results/
+/results/*
+!/results/original_backtest.csv
+!/plot_results.py
+!/tests/test_results_chart.py
+!/results/results_chart.png
